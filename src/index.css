@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --imss-green: #006657; /* Pantone 561 C */
+    --imss-green-dark: #004d41;
+    --imss-green-light: #e6f0ee;
+    --imss-gold: #BC955C; /* Pantone 465 C */
+    --imss-gold-dark: #a27e46;
+    --imss-gold-light: #f8f4ed;
+    --imss-sand: #DDC9A3; /* Pantone 468 C */
+    --imss-sand-light: #faf7f2;
+  }
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #faf9f6;
+  }
+  code, kbd, samp, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+.bg-imss-green { background-color: #006657; }
+.text-imss-green { color: #006657; }
+.border-imss-green { border-color: #006657; }
+
+.bg-imss-gold { background-color: #BC955C; }
+.text-imss-gold { color: #BC955C; }
+.border-imss-gold { border-color: #BC955C; }
+
+.bg-imss-sand { background-color: #DDC9A3; }
+.text-imss-sand { color: #DDC9A3; }
+.border-imss-sand { border-color: #DDC9A3; }
+
+.bg-imss-green-light { background-color: #e6f0ee; }
+.bg-imss-gold-light { background-color: #f8f4ed; }
+.bg-imss-sand-light { background-color: #faf7f2; }
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .page-break {
+    page-break-after: always;
+  }
+}
+

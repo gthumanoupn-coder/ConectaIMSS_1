@@ -1,0 +1,6 @@
+{
+  "name": "CUPN Conecta - IMSS",
+  "description": "CUPN Conecta: Conectando conocimiento, fortaleciendo servicios. Plataforma e-learning oficial de la Coordinación de Unidades de Primer Nivel, Instituto Mexicano del Seguro Social (IMSS).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
